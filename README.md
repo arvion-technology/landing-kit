@@ -2,7 +2,7 @@
 <img src="docs/demo.gif" alt="Landing Kit gallery with a live preview of the SaaS template" width="100%" />
 </div>
 
-<sub>Recorded from the live demo — <a href="docs/demo.mp4">MP4</a> · <a href="docs/screenshot.png">static frame</a></sub>
+<sub>Recorded from the live demo, <a href="docs/demo.mp4">MP4</a> · <a href="docs/screenshot.png">static frame</a></sub>
 
 # Landing Kit
 
@@ -17,8 +17,8 @@ HTML and CSS with no build step.
 ---
 
 Most template packs give you a look and leave the argument to you. These give you
-the argument first. Each page answers the same questions in the same order — is
-this for me, is it real, what does it cost, why might I not — and only then
+the argument first. Each page answers the same questions in the same order, is
+this for me, is it real, what does it cost, why might I not, and only then
 changes the visual language. The copy framework is written down in
 [docs/copy-framework.md](docs/copy-framework.md), including the sections each
 template deliberately leaves out and why.
@@ -28,23 +28,23 @@ customer counts, no logo walls and no paid endorsements anywhere in the pages.
 
 ## What it does
 
-- **A switcher gallery** — six live iframes scaled to thumbnails, with the
+- **A switcher gallery**: six live iframes scaled to thumbnails, with the
   palette, section count and measured minimum contrast for each template.
-- **SaaS (Ledgerline)** — light finance interface, dashboard hero, visible
+- **SaaS (Ledgerline)**: light finance interface, dashboard hero, visible
   pricing and an exception-queue product section.
-- **Agency (Fieldnote)** — warm editorial typography, no logo wall, and an
+- **Agency (Fieldnote)**: warm editorial typography, no logo wall, and an
   engagement model in place of case studies the studio may not publish.
-- **Mobile app (Tempo)** — dark, phone-first hero, an adaptive running plan, and
+- **Mobile app (Tempo)**: dark, phone-first hero, an adaptive running plan, and
   an honest beta CTA because there is no App Store listing to link.
-- **AI product (Vela)** — a cited-answer prompt mock in the hero and a citation
+- **AI product (Vela)**: a cited-answer prompt mock in the hero and a citation
   policy as the proof section.
-- **Marketplace (Swap)** — neighbourhood listings with escrow mechanics, and a
+- **Marketplace (Swap)**: neighbourhood listings with escrow mechanics, and a
   separate seller block rather than pretending both audiences are the same.
-- **Developer tool (Relay)** — terminal aesthetic, a replay command in the hero,
+- **Developer tool (Relay)**: terminal aesthetic, a replay command in the hero,
   retention and redaction as the proof.
-- **A recorded conversion framework** — eight sections with their job, required
+- **A recorded conversion framework**: eight sections with their job, required
   elements and most common mistake, plus per-template adaptation notes.
-- **Twelve palettes with tested contrast** — eight semantic colour tokens per
+- **Twelve palettes with tested contrast**: eight semantic colour tokens per
   template, light and dark, with four WCAG pairs checked in code.
 
 ## Screenshots
@@ -89,7 +89,7 @@ npm test                     # 30 tests, no dependencies, Node 20+
 npm run demo                 # http://localhost:4173/demo/
 ```
 
-To work on one template only, open it directly — each file is standalone:
+To work on one template only, open it directly, each file is standalone:
 
 ```bash
 node scripts/serve.mjs . 4173
@@ -125,7 +125,7 @@ section can be dropped, but it cannot disappear silently.
 stylesheet declares them per template for light mode and again under
 `html[data-theme="dark"]`. `src/palettes.js` holds the same values, and a test
 reads `demo/landing.css` to assert every hex from the source of truth appears
-verbatim — so a palette edit cannot land on one side only. The other test suite
+verbatim, so a palette edit cannot land on one side only. The other test suite
 runs four contrast pairs on all twelve palettes: body text on the page,
 secondary text on the page, the label on the action colour, and the action colour
 as text. All forty-eight combinations pass AA.

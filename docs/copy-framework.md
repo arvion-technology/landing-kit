@@ -11,9 +11,9 @@ when filling it, and where each of the six templates bends the framework.
 
 A visitor arrives with three questions, in sequence:
 
-1. *Is this for me?* — answered by the hero and the audience named in it.
-2. *Is it real?* — answered by proof, then by the product section.
-3. *What will it cost me to try?* — answered by pricing and objections.
+1. *Is this for me?*: answered by the hero and the audience named in it.
+2. *Is it real?*: answered by proof, then by the product section.
+3. *What will it cost me to try?*: answered by pricing and objections.
 
 If a section answers a question the reader is not asking yet, it is in the wrong
 place. That is why the final call to action comes after the objections, not
@@ -116,7 +116,7 @@ product section and keeps the how-to focused on the buyer.
 
 **Rules.**
 - Show a starting price or an honest range.
-- Say what changes between tiers. Retention, documents indexed, workspace count —
+- Say what changes between tiers. Retention, documents indexed, workspace count.
   something the buyer can compare.
 - Put the caveat where the price is: "Starter is not time-limited; it is the
   product with a shorter history window."
@@ -177,9 +177,9 @@ show. The framework will not save copy that is dishonest.
 
 ## Files
 
-- `src/framework.js` — section definitions, template configurations, validation.
-- `src/palettes.js` — six palettes in two modes, plus the contrast audit.
-- `demo/landing.css` — the single stylesheet and the palette blocks.
-- `demo/templates/*.html` — the six pages. Each section starts with a comment
+- `src/framework.js`: section definitions, template configurations, validation.
+- `src/palettes.js`: six palettes in two modes, plus the contrast audit.
+- `demo/landing.css`: the single stylesheet and the palette blocks.
+- `demo/templates/*.html`: the six pages. Each section starts with a comment
   naming its purpose.
-- `demo/index.html` — the gallery, framework table and rebrand guide.
+- `demo/index.html`: the gallery, framework table and rebrand guide.
